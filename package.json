@@ -1,0 +1,19 @@
+{
+  "name": "html-template",
+  "version": "0.0.1",
+  "description": "Example of using string templates as a system to return dynamic html",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server.js"
+  },
+  "author": "Michael Church",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sanitize-html": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
